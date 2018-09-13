@@ -19,3 +19,21 @@ Run the explorer.sh file from within your home directory to start the installati
 ```
 ./install.sh
 ```
+
+# Set up database account
+Connect to mongo
+
+```
+mongo
+```
+
+Create a user account
+```
+db.createUser( { user: "iquidus", pwd: "3xp!0reR", roles: [ "readWrite" ] } )
+```
+
+# Run explorer
+```
+cd explorerdb
+npm start
+```
