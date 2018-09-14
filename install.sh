@@ -17,6 +17,7 @@ sudo apt-get install libkrb5-dev -y
 git clone https://github.com/dondreytaylor/iquidus-btg.git explorer
 cd explorer && npm install
 cd ..
+mv explorer ../
 
 # Create settings file
 cat <<EOT >> ./settings.json
