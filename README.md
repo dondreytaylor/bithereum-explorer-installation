@@ -29,7 +29,7 @@ mongo
 
 Create a user account
 ```
-db.createUser( { user: "iquidus", pwd: "3xp!0reR", roles: [ "readWrite" ] } )
+db.createUser( { user: "bithereum", pwd: "3xp!0reR", roles: [ "readWrite" ] } )
 ```
 
 # Run explorer
