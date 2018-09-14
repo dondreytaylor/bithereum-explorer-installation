@@ -29,6 +29,7 @@ mongo
 
 Create a user account
 ```
+use explorerdb
 db.createUser( { user: "bithereum", pwd: "3xp!0reR", roles: [ "readWrite" ] } )
 ```
 
