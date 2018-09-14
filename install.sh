@@ -1,4 +1,8 @@
 # Installation for Ubuntu 18.04
+sudo apt-get update -y
+sudo apt-get install npm -y
+sudo npm install n -y
+sudo n latest
 
 # Install MongoDB
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD75D9DCB49F368818C72E52529D4
