@@ -1,7 +1,7 @@
 # Installation for Ubuntu 18.04
 sudo apt-get update -y
 sudo apt-get install npm -y
-sudo npm install n -y
+sudo npm install n -g -y
 sudo n latest
 
 # Install MongoDB
@@ -186,3 +186,5 @@ EOT
 cd ..
 mv explorer ../
 cd ..
+
+service mongod start
