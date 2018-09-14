@@ -23,15 +23,15 @@ cat <<EOT >> ./settings.json
 */
 {
   // name your instance!
-  "title": "Iquidus - BTG Explorer",
+  "title": "Bithereum Explorer",
 
-  "address": "192.168.1.6",
+  "address": "explorer.bithereum.network",
 
   // coin name
-  "coin": "Bitcoin Gold",
+  "coin": "Bithereum",
 
   // coin symbol
-  "symbol": "BTG",
+  "symbol": "BTH",
 
   // logo
   "logo": "/images/bgold.jpg",
@@ -51,10 +51,10 @@ cat <<EOT >> ./settings.json
 
   // database settings (MongoDB)
   "dbsettings": {
-    "user": "iquidus",
+    "user": "bithereum",
     "password": "3xp!0reR",
     "database": "explorerdb",
-    "address": "192.168.1.10",
+    "address": "localhost",
     "port": 27017
   },
 
